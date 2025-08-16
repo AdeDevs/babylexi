@@ -55,7 +55,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .memories {
+  .memories .memories-box {
     grid-template-columns: 1fr;
   }
   .one img, .four img, .two img, .tres img {

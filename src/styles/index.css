@@ -23,7 +23,6 @@ html, body {
 
  .navigation {
   background-color: #2ecc70b0;
-  border-bottom: 1px solid var(--accentColor);
   backdrop-filter: blur(3px);
   display: flex;
   width: 100%;
