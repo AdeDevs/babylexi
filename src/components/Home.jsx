@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import hero from "../assets/alina.jpg"
+import yemi from "../assets/yemi.jpg"
 
 export default function HomePage() {
     const [isActive, setIsActive] = useState(false);
@@ -18,10 +19,10 @@ export default function HomePage() {
     return (
         <div className="parent">
             <nav className="navigation">
-                <h1><a href="#">happy birthday babylex</a></h1>
+                <h1><a href="/">happy birthday babylex</a></h1>
                 <ul className="desk">
-                    <a href="#">message</a>
-                    <a href="#">memories</a>
+                    <a href="#message">message</a>
+                    <a href="#memories">memories</a>
                     <span className="toggle open" onClick={toggleMenu}><ion-icon id="tog" name="menu-outline" /></span>
                 </ul>
 
@@ -29,8 +30,8 @@ export default function HomePage() {
                 <div className={`mob ${isActive ? "active" : ""}`}>
                     <span className="toggle close" onClick={toggleMenu}><ion-icon id="tog" name="close-outline" /></span>
                     <ul>
-                        <a href="#">message</a>
-                        <a href="#">memories</a>
+                        <a href="#message">message</a>
+                        <a href="#memories">memories</a>
                     </ul>
                 </div>
             </nav>
@@ -45,7 +46,7 @@ export default function HomePage() {
                     </div>
                 </header>
                 <main>
-                    <div className="message">
+                    <div id="message" className="message">
                         <h1>Here's a little message from me to the most wonderful girl in the whole world.</h1>
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias ex suscipit hic fugit saepe omnis earum vel sed fugiat eligendi numquam consequatur accusamus rem, aliquam quibusdam ipsa maiores temporibus ipsam!
@@ -59,9 +60,11 @@ export default function HomePage() {
                         </p>
                         <a href="#">click.this</a>
                     </div>
-                    <div className="memories">
+                    <div id="memories" className="memories">
+                        <h2>Over here, we'll be revisiting some memories of our time together, those i've media of or at least those I remember</h2>
+                        <div className="memories-box">
                         <div className="memory one">
-                            <img src={hero} alt="image" />
+                            <img src={yemi} alt="image" />
                             <h1>Lorem Ipsum</h1>
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
@@ -69,7 +72,7 @@ export default function HomePage() {
                             <span>16th of August, 2025</span>
                         </div>
                         <div className="memory two">
-                            <img src={hero} alt="image" />
+                            <img src={yemi} alt="image" />
                             <h1>Lorem Ipsum</h1>
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
@@ -77,7 +80,7 @@ export default function HomePage() {
                             <span>16th of August, 2025</span>
                         </div>
                         <div className="memory tres">
-                            <img src={hero} alt="image" />
+                            <img src={yemi} alt="image" />
                             <h1>Lorem Ipsum</h1>
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
@@ -85,12 +88,13 @@ export default function HomePage() {
                             <span>16th of August, 2025</span>
                         </div>
                         <div className="memory four">
-                            <img src={hero} alt="image" />
+                            <img src={yemi} alt="image" />
                             <h1>Lorem Ipsum</h1>
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
                             </p>
                             <span>16th of August, 2025</span>
+                        </div>
                         </div>
                     </div>
                 </main>
