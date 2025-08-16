@@ -1,0 +1,53 @@
+.message {
+    width: 100%;
+    color: var(--accentColor);
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.message h1 {
+    font-size: 30px;
+    font-family: "Young Serif", sans-serif;
+    width: 50%;
+    text-transform: uppercase;
+}
+
+.message p {
+    font-size: 15px;
+    line-height: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.message p span {
+    width: fit-content;
+    display: block;
+    float: right;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    margin-top: 20px;
+}
+.message a {
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    justify-self: end;
+    width: fit-content;
+    transition: all .3s ease-in-out;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0px;
+}
+.message a:hover {
+    text-underline-offset: 2px;
+    color: var(--accentColor);
+}
+
+@media (max-width:600px) {
+    .message h1 {
+        width: 100%;
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+}
