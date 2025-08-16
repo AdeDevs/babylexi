@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react"
 import hero from "../assets/alina.jpg"
-import yemi from "../assets/yemi.jpg"
 
 export default function HomePage() {
     const [isActive, setIsActive] = useState(false);
@@ -64,7 +63,7 @@ export default function HomePage() {
                         <h2>Over here, we'll be revisiting some memories of our time together, those i've media of or at least those I remember</h2>
                         <div className="memories-box">
                         <div className="memory one">
-                            <img src={yemi} alt="image" />
+                            <img src={hero} alt="image" />
                             <h1>Lorem Ipsum</h1>
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
@@ -72,7 +71,7 @@ export default function HomePage() {
                             <span>16th of August, 2025</span>
                         </div>
                         <div className="memory two">
-                            <img src={yemi} alt="image" />
+                            <img src={hero} alt="image" />
                             <h1>Lorem Ipsum</h1>
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
@@ -80,7 +79,7 @@ export default function HomePage() {
                             <span>16th of August, 2025</span>
                         </div>
                         <div className="memory tres">
-                            <img src={yemi} alt="image" />
+                            <img src={hero} alt="image" />
                             <h1>Lorem Ipsum</h1>
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
@@ -88,7 +87,7 @@ export default function HomePage() {
                             <span>16th of August, 2025</span>
                         </div>
                         <div className="memory four">
-                            <img src={yemi} alt="image" />
+                            <img src={hero} alt="image" />
                             <h1>Lorem Ipsum</h1>
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
