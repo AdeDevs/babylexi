@@ -18,7 +18,7 @@ export default function HomePage() {
     return (
         <div className="parent">
             <nav className="navigation">
-                <h1><a href="/">happy birthday babylex</a></h1>
+                <h1><a href="/">happy birthday baby lex</a></h1>
                 <ul className="desk">
                     <a href="#message">message</a>
                     <a href="#memories">memories</a>
@@ -57,7 +57,7 @@ export default function HomePage() {
                             Deserunt voluptatem id culpa soluta quidem nemo beatae excepturi explicabo sed necessitatibus. Dicta sint harum dolorem reprehenderit cum voluptates? Facilis incidunt accusantium atque natus iusto, rerum sequi maiores quaerat beatae!
                             Quam ut fugiat, delectus voluptate optio architecto praesentium ex error rerum et corporis ducimus obcaecati quas iusto quasi excepturi adipisci a asperiores necessitatibus amet eligendi nostrum maxime. Earum, eos molestiae!
                         </p>
-                        <a href="#">click.this</a>
+                        <a href="video.mp4" download={true}>click.this</a>
                     </div>
                     <div id="memories" className="memories">
                         <h2>Over here, we'll be revisiting some memories of our time together, those i've media of or at least those I remember</h2>
