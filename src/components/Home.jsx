@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import hero from "../assets/alina.jpg"
+import message from "../assets/dola.jpg"
 
 export default function HomePage() {
     const [isActive, setIsActive] = useState(false);
@@ -47,17 +48,9 @@ export default function HomePage() {
                 <main>
                     <div id="message" className="message">
                         <h1>Here's a little message from me to the most wonderful girl in the whole world.</h1>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias ex suscipit hic fugit saepe omnis earum vel sed fugiat eligendi numquam consequatur accusamus rem, aliquam quibusdam ipsa maiores temporibus ipsam!
-                            Natus dolor ducimus, voluptatum reprehenderit officiis animi laboriosam tempora vitae iure magnam ipsam ex porro molestias eum sapiente impedit aperiam? Maxime dolor vitae, minus labore accusamus voluptatum eveniet repellat nisi.
-                            Expedita, facere vero recusandae modi aliquid quia ducimus nihil consequatur nesciunt adipisci, animi ipsum harum vitae facilis voluptates, nam eos commodi odit possimus quisquam. Assumenda quod quos provident aliquam suscipit!
-                            Ullam ipsam culpa eveniet quisquam illum alias fugiat, veritatis minus iste dignissimos mollitia cupiditate labore quis, magni aliquam. Id eveniet ut modi velit illum sint libero ex debitis totam vero.
-                            Tempora dolore impedit expedita corrupti odit minus, amet quaerat minima, consequuntur placeat atque mollitia ipsum in? Temporibus labore porro ea. Sequi consequuntur eaque laboriosam maxime amet corrupti est ipsum aut?
-                            Consectetur eos optio blanditiis nesciunt necessitatibus ea eaque, culpa modi tenetur repellat sapiente error suscipit quisquam ipsa nostrum assumenda perspiciatis rem quis hic architecto commodi consequatur atque animi dolores? Inventore?
-                            Deserunt voluptatem id culpa soluta quidem nemo beatae excepturi explicabo sed necessitatibus. Dicta sint harum dolorem reprehenderit cum voluptates? Facilis incidunt accusantium atque natus iusto, rerum sequi maiores quaerat beatae!
-                            Quam ut fugiat, delectus voluptate optio architecto praesentium ex error rerum et corporis ducimus obcaecati quas iusto quasi excepturi adipisci a asperiores necessitatibus amet eligendi nostrum maxime. Earum, eos molestiae!
-                        </p>
-                        <a href="video.mp4" download={true}>click.this</a>
+                        <div className="message-box">
+                            <img src={message} alt="image" />
+                        </div>
                     </div>
                     <div id="memories" className="memories">
                         <h2>Over here, we'll be revisiting some memories of our time together, those i've media of or at least those I remember</h2>
