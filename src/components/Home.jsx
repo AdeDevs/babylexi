@@ -31,8 +31,8 @@ export default function HomePage() {
                 <div className={`mob ${isActive ? "active" : ""}`}>
                     <span className="toggle close" onClick={toggleMenu}><ion-icon id="tog" name="close-outline" /></span>
                     <ul>
-                        <a href="#message">message</a>
-                        <a href="#memories">memories</a>
+                        <a href="#message" onClick={toggleMenu}>message</a>
+                        <a href="#memories" onClick={toggleMenu}>memories</a>
                     </ul>
                 </div>
             </nav>
