@@ -75,6 +75,6 @@ main {
   }
     .hero .bg {
       height: 130vw;
-      min-height: 95vh;
+      min-height: 80vh;
     }
 }
