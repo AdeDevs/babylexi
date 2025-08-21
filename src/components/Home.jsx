@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import hero from "../assets/alina.jpg"
-import message from "../assets/dola.jpg"
+import message from "../assets/letter.jpg"
+import greeting from "../assets/greeting.jpg"
 
 export default function HomePage() {
     const [isActive, setIsActive] = useState(false);
@@ -37,12 +38,12 @@ export default function HomePage() {
             </nav>
             <div className="home">
                 <header className="hero">
-                    <div className="text">
+                    {/* <div className="text">
                         <h1>Happy Birthday Lexi</h1>
                         <p>i wish you a day as beautiful as you are. <br /> <span>you deserve the world</span></p>
-                    </div>
+                    </div> */}
                     <div className="bg">
-                        <img src={hero} alt="hero" />
+                        <img src={greeting} alt="hero" />
                     </div>
                 </header>
                 <main>

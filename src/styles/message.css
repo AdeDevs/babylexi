@@ -2,31 +2,30 @@
     width: 100%;
     color: var(--accentColor);
     box-sizing: border-box;
-    padding: 30px 0;
+    padding: 0;
     font-family: "Montserrat", sans-serif;
 }
 
 .message h1 {
     font-size: 30px;
-    font-family: "Young Serif", sans-serif;
-    width: 50%;
+    font-weight: 600;
+    width: 70%;
     text-transform: uppercase;
 }
 
 .message .message-box {
-    border: 1px solid var(--accentColor);
-    max-width: 100%;
+    width: 70%;
     margin: 0 auto;
     margin-top: 20px;
-    border-radius: 10px;
-    background-color: var(--borderColor);
+    border-radius: 7px;
+    background-color: #2ecc705c;
     overflow: hidden;
 }
 
 .message-box img {
     object-fit: cover;
     max-width: 100%;
-    max-height: 70vh;
+    max-height: 85vh;
     margin: 0 auto;
     display: block;
     object-position: center;
@@ -35,13 +34,13 @@
 @media (max-width:600px) {
     .message h1 {
         width: 100%;
-        font-size: 27px;
+        font-size: 23px;
         margin-bottom: 10px;
     }
-    /* .message .message-box {
+    .message .message-box {
         width: 100%;
     }
     .message-box img {
         width: 100%;
-    } */
+    }
 }

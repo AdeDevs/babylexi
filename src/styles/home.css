@@ -7,7 +7,6 @@
   }
 
   .home .hero{
-    margin-top: 10px;
     box-sizing: border-box;
     width: 100%;
     justify-content: space-between;
@@ -17,7 +16,7 @@
     background-repeat: no-repeat;
   }
   
-  .hero .text {
+  /* .hero .text {
     color: #ff4867;
     display: flex;
     padding: 10px 15px ;
@@ -42,10 +41,10 @@
 
 .text p span {
     font-weight: 600;
-}
+} */
 
 .hero .bg {
-    height: 90vh;
+    height: 92vh;
     border-radius: 7px;
     background-size: cover;
 }
@@ -75,6 +74,7 @@ main {
     align-self: flex-end;
   }
     .hero .bg {
-      height: 120vw;
+      height: 130vw;
+      min-height: 70vh;
     }
 }
