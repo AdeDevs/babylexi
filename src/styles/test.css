@@ -43,3 +43,42 @@
 .test-box .eight {
     background-image: url(../assets/night.jpg);
 }
+
+@media screen and (max-width: 600px) {
+    .test-box {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 45vw);
+    }
+    .test-box .one {
+        grid-row: 1/3;
+        grid-column: auto;
+    }
+    .test-box .two {
+        grid-row: auto;
+        grid-column: auto;
+    }
+    .test-box .three {
+        grid-row: auto;
+        grid-column: auto;
+    }
+    .test-box .four {
+        grid-row: auto;
+        grid-column: auto;
+    }
+    .test-box .five {
+        grid-row: 3/5;
+        grid-column: auto;
+    }
+    .test-box .six {
+        grid-row: auto;
+        grid-column: auto;
+    }
+    .test-box .sev {
+        grid-row: auto;
+        grid-column: auto;
+    }
+    .test-box .eight {
+        grid-row: 4/6;
+        grid-column: 1;
+    }
+}
