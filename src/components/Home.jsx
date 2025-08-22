@@ -62,8 +62,8 @@ export default function HomePage() {
                         </div>
                     </div>
                     <div id="memories" className="memories">
-                        <h2>Over here, we'll be revisiting some memories of our time together, those i've media of or at least those I remember</h2>
-                        <p className="hope">Hoping to make more memories with you...</p>
+                        <h2>Always fun creating memories together</h2>
+                        <p className="hope">Here's to making more memories with you...</p>
                         <div className="test-box">
                             <div className="test one"></div>
                             <div className="test two"></div>
