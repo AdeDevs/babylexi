@@ -2,6 +2,14 @@ import { useEffect, useState } from "react"
 import hero from "../assets/alina.jpg"
 import message from "../assets/letter.jpg"
 import greeting from "../assets/greeting.jpg"
+import blurry from "../assets/blurry.jpg"
+import brush from "../assets/brush.jpg"
+import goofy from "../assets/goofy.jpg"
+import hug from "../assets/hug.jpg"
+import mirror from "../assets/mirror.jpg"
+import night from "../assets/night.jpg"
+import out from "../assets/out.jpg"
+import smile from "../assets/smile.jpg"
 
 export default function HomePage() {
     const [isActive, setIsActive] = useState(false);
@@ -57,7 +65,7 @@ export default function HomePage() {
                         <h2>Over here, we'll be revisiting some memories of our time together, those i've media of or at least those I remember</h2>
                         <div className="memories-box">
                         <div className="memory one">
-                            <img src={hero} alt="image" />
+                            <img src={hug} alt="image" />
                             <h1>Lorem Ipsum</h1>
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
@@ -65,7 +73,7 @@ export default function HomePage() {
                             <span>16th of August, 2025</span>
                         </div>
                         <div className="memory two">
-                            <img src={hero} alt="image" />
+                            <img src={brush} alt="image" />
                             <h1>Lorem Ipsum</h1>
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
@@ -73,7 +81,7 @@ export default function HomePage() {
                             <span>16th of August, 2025</span>
                         </div>
                         <div className="memory tres">
-                            <img src={hero} alt="image" />
+                            <img src={goofy} alt="image" />
                             <h1>Lorem Ipsum</h1>
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
@@ -81,7 +89,39 @@ export default function HomePage() {
                             <span>16th of August, 2025</span>
                         </div>
                         <div className="memory four">
-                            <img src={hero} alt="image" />
+                            <img src={night} alt="image" />
+                            <h1>Lorem Ipsum</h1>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
+                            </p>
+                            <span>16th of August, 2025</span>
+                        </div>
+                        <div className="memory four">
+                            <img src={out} alt="image" />
+                            <h1>Lorem Ipsum</h1>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
+                            </p>
+                            <span>16th of August, 2025</span>
+                        </div>
+                        <div className="memory tres">
+                            <img src={smile} alt="image" />
+                            <h1>Lorem Ipsum</h1>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
+                            </p>
+                            <span>16th of August, 2025</span>
+                        </div>
+                        <div className="memory tres">
+                            <img src={blurry} alt="image" />
+                            <h1>Lorem Ipsum</h1>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
+                            </p>
+                            <span>16th of August, 2025</span>
+                        </div>
+                        <div className="memory four">
+                            <img src={mirror} alt="image" />
                             <h1>Lorem Ipsum</h1>
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
