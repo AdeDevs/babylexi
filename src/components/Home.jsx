@@ -18,7 +18,7 @@ export default function HomePage() {
         setIsActive(!isActive);
     };
     useEffect(() => {
-        if(isActive) {
+        if (isActive) {
             document.body.classList.add('no-scroll')
         } else {
             document.body.classList.remove('no-scroll')
@@ -63,71 +63,15 @@ export default function HomePage() {
                     </div>
                     <div id="memories" className="memories">
                         <h2>Over here, we'll be revisiting some memories of our time together, those i've media of or at least those I remember</h2>
-                        <div className="memories-box">
-                        <div className="memory one">
-                            <img src={hug} alt="image" />
-                            <h1>Lorem Ipsum</h1>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
-                            </p>
-                            <span>16th of August, 2025</span>
-                        </div>
-                        <div className="memory two">
-                            <img src={brush} alt="image" />
-                            <h1>Lorem Ipsum</h1>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
-                            </p>
-                            <span>16th of August, 2025</span>
-                        </div>
-                        <div className="memory tres">
-                            <img src={goofy} alt="image" />
-                            <h1>Lorem Ipsum</h1>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
-                            </p>
-                            <span>16th of August, 2025</span>
-                        </div>
-                        <div className="memory four">
-                            <img src={night} alt="image" />
-                            <h1>Lorem Ipsum</h1>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
-                            </p>
-                            <span>16th of August, 2025</span>
-                        </div>
-                        <div className="memory four">
-                            <img src={out} alt="image" />
-                            <h1>Lorem Ipsum</h1>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
-                            </p>
-                            <span>16th of August, 2025</span>
-                        </div>
-                        <div className="memory tres">
-                            <img src={smile} alt="image" />
-                            <h1>Lorem Ipsum</h1>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
-                            </p>
-                            <span>16th of August, 2025</span>
-                        </div>
-                        <div className="memory tres">
-                            <img src={blurry} alt="image" />
-                            <h1>Lorem Ipsum</h1>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
-                            </p>
-                            <span>16th of August, 2025</span>
-                        </div>
-                        <div className="memory four">
-                            <img src={mirror} alt="image" />
-                            <h1>Lorem Ipsum</h1>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ducimus excepturi eveniet, quibusdam ratione illo consequatur perferendis facilis nostrum alias, deleniti fugiat sit enim sint repellendus ex beatae, tenetur incidunt?
-                            </p>
-                            <span>16th of August, 2025</span>
-                        </div>
+                        <div className="test-box">
+                            <div className="test one"></div>
+                            <div className="test two"></div>
+                            <div className="test three"></div>
+                            <div className="test four"></div>
+                            <div className="test five"></div>
+                            <div className="test six"></div>
+                            <div className="test sev"></div>
+                            <div className="test eight"></div>
                         </div>
                     </div>
                 </main>
